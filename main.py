@@ -74,11 +74,10 @@ else:
 
 for_sale = False
 
-# Moving on to Type Casting
-
 if for_sale:
     print ("that item is for sale")
 
 else:
     print ("that item is not for sale")
 
+# Moving on to Type Casting
