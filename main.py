@@ -101,3 +101,12 @@ elif marks >= 50:
 
 else:
     print("Fail")     # runs if marks < 50
+
+# 2. Loops
+
+# Loop from 1 to 20
+for i in range(1, 21):
+
+    # Check if number is even
+    if i % 2 == 0:
+        print(i)  # print only even numbers
