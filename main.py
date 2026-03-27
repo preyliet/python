@@ -110,3 +110,17 @@ for i in range(1, 21):
     # Check if number is even
     if i % 2 == 0:
         print(i)  # print only even numbers
+
+# 3. While Loop + Logic Building
+
+total = 0  # store total sum
+
+while True:  # infinite loop until we break
+    num = int(input("Enter number (0 to stop): "))
+
+    if num == 0:
+        break  # exit loop if user enters 0
+
+    total += num  # add number to total
+
+print("Total sum is:", total)
