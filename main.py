@@ -81,3 +81,23 @@ else:
     print ("that item is not for sale")
 
 # Moving on to Type Casting
+
+# Before that found this day 3 code from gpt
+
+# Conditional Statements
+
+# Take input from user
+marks = int(input("Enter your marks: "))
+
+# Check conditions one by one
+if marks >= 90:
+    print("Grade A")  # runs if marks >= 90
+
+elif marks >= 70:
+    print("Grade B")  # runs if marks is between 70–89
+
+elif marks >= 50:
+    print("Grade C")  # runs if marks is between 50–69
+
+else:
+    print("Fail")     # runs if marks < 50
