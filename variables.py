@@ -1,0 +1,96 @@
+# Lets jump on to variables in python
+# A variable is a container for storing data values. In Python, you can create a variable by simply assigning a value to it. For example:
+
+
+# strings
+
+# some examples for strings are first name, last name, car, email etc.
+first_name = "Rohan"
+last_name = "Nilatkar"
+car = "BMW"
+email = "iix.preyliet@gmail.com"
+
+print (f"My name is {first_name}")
+print (f"My last name is {last_name}")
+print (f"The car I will buy is {car}")
+print (f"My email is {email}")
+
+# integers
+
+# some examples for integers are age, quantity, num_of_students etc.
+age = 18
+quantity = 3
+num_of_students = 34
+
+print (f"My age is {age}") 
+print (f"I am buying {quantity} items")
+print (f"The number of students in my class are {num_of_students}")
+
+# Floats
+
+# some examples for floats are price, weight, height etc.
+price = 19.99
+weight = 72.90
+height = 5.9
+
+print (f"The price of the item is ${price}")
+print (f"My current weight is {weight} kilograms")
+print (f"My current height is {height} feet")
+
+# Booleans
+
+# some examples for booleans are is_student, is_employed, has_license etc.
+
+is_student = True
+
+if is_student:
+    print ("I'm a student")
+else: 
+    print ("I'm not a student")    
+
+# Trying it with False
+
+is_student = False
+
+if is_student:
+    print ("I'm a student")
+else: 
+    print ("I'm not a student")    
+
+# Sale example
+
+for_sale = True
+
+if for_sale:
+    print ("that item is for sale")
+
+else:
+    print ("that item is not for sale")    
+
+# Trying it with False
+
+for_sale = False
+
+if for_sale:
+    print ("that item is for sale")
+
+else:
+    print ("that item is not for sale")
+
+# Online or Not example
+
+is_online = True
+
+if is_online:
+    print ("You are online")
+else:
+    print ("You are offline") 
+
+# Trying it with False
+
+is_online = False 
+
+if is_online:
+    print ("You are online")
+else:
+    print ("You are offline")
